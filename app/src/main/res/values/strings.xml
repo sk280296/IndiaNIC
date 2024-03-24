@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">IndiaNIC</string>
+    <string name="lbl_choose">Choose</string>
+    <string name="street_number">Street Number or Name</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="zip_code">ZIP Code</string>
+    <string name="country">Country</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="ok">OK</string>
+    <string name="enable">Enable</string>
+    <string name="turn_on_device_location">For a better experience, turn on device location</string>
+    <string name="turn_on_application_location">Please allow location permission for application info.</string>
+    <string name="no_thanks">No thanks</string>
+    <string name="cancel">Cancel</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="google_maps_key">AIzaSyD3rf_SOhwm6LannDUCoA4nTrsTzZwYToo</string>
+    <string name="open_weather_map_key">27c858b7543f203d0b42065245d6ffe2</string>
+    <string name="no_result_found">No Result Found</string>
+    <string name="not_found_in_your_location">\"%s\" not found in your\nlocation</string>
+    <string name="no_subcategory_available">No sub-category available</string>
+    <string name="go_to_home">Go To Home</string>
+    <string name="ooops">Ooops!</string>
+    <string name="no_internet">No Internet</string>
+    <string name="check_your_internet_connection">Check your internet connection</string>
+
+</resources>

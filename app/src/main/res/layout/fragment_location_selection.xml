@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/cvContinue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">-->
+
+    <!--
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ivMap"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp356"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sample_address_map"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+    -->
+
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp356"
+        android:elevation="@dimen/dp1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+<!--
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivBack"
+        android:layout_width="@dimen/dp32"
+        android:layout_height="@dimen/dp32"
+        android:layout_marginStart="@dimen/dp16"
+        android:layout_marginTop="@dimen/dp20"
+        android:background="@drawable/img_bg_button_grey"
+        android:src="@drawable/ic_arrow_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivCurrentLocation"
+        android:layout_width="@dimen/dp32"
+        android:layout_height="@dimen/dp32"
+        android:layout_marginEnd="@dimen/dp16"
+        android:layout_marginBottom="@dimen/dp20"
+        android:background="@drawable/bg_shape_oval"
+        android:backgroundTint="@color/white"
+        android:padding="@dimen/dp5"
+        android:src="@drawable/ic_my_location"
+        app:layout_constraintBottom_toBottomOf="@id/mapFragment"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivMarker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp35"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_address_picker_marker"
+        app:layout_constraintBottom_toBottomOf="@id/mapFragment"
+        app:layout_constraintEnd_toEndOf="@id/mapFragment"
+        app:layout_constraintStart_toStartOf="@id/mapFragment"
+        app:layout_constraintTop_toTopOf="@id/mapFragment" />
+
+    <!--
+                <View
+                    android:id="@+id/a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_address_picker_marker"
+                    app:layout_constraintBottom_toBottomOf="@id/mapFragment"
+                    app:layout_constraintEnd_toEndOf="@id/mapFragment"
+                    app:layout_constraintStart_toStartOf="@id/mapFragment"
+                    app:layout_constraintTop_toTopOf="@id/mapFragment" />
+    -->
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mapFragment">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.app.indianic.customview.CustomMaterialEditText
+                android:id="@+id/etStreetNumber"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp56"
+                android:layout_marginHorizontal="@dimen/dp16"
+                android:layout_marginTop="@dimen/dp16"
+                app:animatedHintColor="@color/color_252527"
+                app:customHintTextAppearance="@style/CustomHintTextAppearance"
+                app:hint="@string/street_number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:textColor="@color/color_3C3B3E"
+                app:textInputType="text"
+                app:textSize="@dimen/sp16"
+                app:textTypeface="@font/general_sans_regular" />
+
+            <com.app.indianic.customview.CustomMaterialEditText
+                android:id="@+id/etCity"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dp56"
+                android:layout_marginStart="@dimen/dp16"
+                android:layout_marginTop="@dimen/dp16"
+                android:layout_marginEnd="@dimen/dp10"
+                app:animatedHintColor="@color/color_252527"
+                app:customHintTextAppearance="@style/CustomHintTextAppearance"
+                app:hint="@string/city"
+                app:layout_constraintEnd_toStartOf="@id/etState"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/etStreetNumber"
+                app:textColor="@color/color_3C3B3E"
+                app:textInputType="text"
+                app:textSize="@dimen/sp16"
+                app:textTypeface="@font/general_sans_regular" />
+
+            <com.app.indianic.customview.CustomMaterialEditText
+                android:id="@+id/etState"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dp56"
+                android:layout_marginStart="@dimen/dp10"
+                android:layout_marginTop="@dimen/dp16"
+                android:layout_marginEnd="@dimen/dp16"
+                app:animatedHintColor="@color/color_252527"
+                app:customHintTextAppearance="@style/CustomHintTextAppearance"
+                app:hint="@string/state"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintStart_toEndOf="@id/etCity"
+                app:layout_constraintTop_toBottomOf="@id/etStreetNumber"
+                app:textColor="@color/color_3C3B3E"
+                app:textInputType="text"
+                app:textSize="@dimen/sp16"
+                app:textTypeface="@font/general_sans_regular" />
+
+            <com.app.indianic.customview.CustomMaterialEditText
+                android:id="@+id/etZipCode"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp56"
+                android:layout_marginHorizontal="@dimen/dp16"
+                android:layout_marginTop="@dimen/dp16"
+                app:animatedHintColor="@color/color_252527"
+                app:customHintTextAppearance="@style/CustomHintTextAppearance"
+                app:hint="@string/zip_code"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/etCity"
+                app:textColor="@color/color_3C3B3E"
+                app:textInputType="number"
+                app:textMaxLength="6"
+                app:textSize="@dimen/sp16"
+                app:textTypeface="@font/general_sans_regular" />
+
+            <com.app.indianic.customview.CustomMaterialEditText
+                android:id="@+id/etCountry"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp56"
+                android:layout_marginHorizontal="@dimen/dp16"
+                android:layout_marginTop="@dimen/dp16"
+                android:layout_marginBottom="@dimen/dp20"
+                app:animatedHintColor="@color/color_252527"
+                app:customHintTextAppearance="@style/CustomHintTextAppearance"
+                app:hint="@string/country"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/etZipCode"
+                app:textColor="@color/color_3C3B3E"
+                app:textInputType="text"
+                app:textSize="@dimen/sp16"
+                app:textTypeface="@font/general_sans_regular" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvContinue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dp58"
+        android:layout_marginTop="@dimen/dp30"
+        android:layout_marginBottom="@dimen/dp50"
+        app:cardBackgroundColor="@color/color_E94826_50"
+        app:cardCornerRadius="@dimen/dp8"
+        app:cardElevation="0dp"
+        app:contentPadding="@dimen/dp17"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/scrollView">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/general_sans_semibold"
+            android:text="@string/lbl_choose"
+            android:textColor="@color/color_FFFFFF"
+            android:textSize="@dimen/sp16"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_business_category.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_business_profile.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_change_password.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_contact_us.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_create_business_profile.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_create_profile.xml">
+        <config>
+          <theme>@style/Theme.HappyMob</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_faqs.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_forgot_password.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
+        <config>
+          <theme>@android:style/Theme.Material.Light</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+        <config>
+          <theme>@style/Theme.HappyMob</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_new_password.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_no_internet.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_onboarding.xml">
+        <config>
+          <theme>@style/Theme.HappyMob.NoActionBar.TransparentStatusBar</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_saved_business.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_search_business.xml">
+        <config>
+          <theme>@style/Theme.HappyMob</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_search_location_by_name.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_search_places.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_setup_business_profile.xml">
+        <config>
+          <theme>@style/Theme.HappyMob</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC.NoActionBar.TransparentStatusBar</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_user_profile.xml">
+        <config>
+          <theme>@style/Theme.HappyMob</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_user_sign_up.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_weather.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_web_view.xml">
+        <config>
+          <theme>@style/Theme.HappyMob</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/bottomsheet_category.xml">
+        <config>
+          <theme>@style/Theme.HappyMob</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/bottomsheet_choose_pic.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/bottomsheet_filter.xml">
+        <config>
+          <theme>@style/Theme.HappyMob</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/bottomsheet_report_content.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/custom_auto_complete_dropdown.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/custom_autocomplete_and_dropdown.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/custom_scrollbar.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_logout.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_otp_verified.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_profile_completed.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_business_contact_information.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_business_information.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_business_list.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_business_list_on_map.xml">
+        <config>
+          <theme>@style/Theme.HappyMob</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_business_profile.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_current_weather.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_five_day_forecast.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_gallery.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml">
+        <config>
+          <theme>@style/Theme.HappyMob</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_location.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_location_selection.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_slideshow.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_weather_data.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_business_category.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_business_home.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_business_hour.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_business_service.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_business_sub_category.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_home_category.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_home_suggestion.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_image.xml">
+        <config>
+          <theme>@style/Theme.HappyMob</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_img_business_category.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_notification.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_report.xml">
+        <config>
+          <theme>@style/Theme.HappyMob</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/layout_custom_edittext.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/layout_custom_edittext_country_code.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/layout_load_more.xml">
+        <config>
+          <theme>@style/Theme.HappyMob</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/layout_main.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/layout_no_data.xml">
+        <config>
+          <theme>@style/Theme.HappyMob</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/layout_progressbar.xml">
+        <config>
+          <theme>@style/Theme.HappyMob</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/menu/main.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/navigation/weather_nav_graph.xml">
+        <config>
+          <theme>@style/Theme.IndiaNIC</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6ee6cc88-7874-492a-9fd4-1dfe9a21ab68" name="Changes" comment="Bug Fixing and improvement" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[5478c2a8]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/cameraview">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HappyMob" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HappyMob" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HappyMob" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HappyMob" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="android" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HappyMob" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="valueResourceFile" />
+        <option value="Kotlin Object" />
+        <option value="Kotlin Enum" />
+        <option value="resourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Kotlin Class" />
+        <option value="navigationResourceFile" />
+        <option value="Kotlin Data Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/../../HappyMob_Release_Key.jks" />
+    <option name="KEY_ALIAS" value="happyab&amp;cmobxy&amp;z" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2VblinRr5IkAaA2pbzAc6OdyREv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ApkExportedModule": "HappyMob.app",
+    "DEBUGGABLE_DEVICE": "xiaomi-m2101k7ai-5478c2a8",
+    "DEBUGGABLE_PROCESS": "com.app.indianic",
+    "DEBUGGER_ID": "Auto",
+    "ExportApk.ApkPathForHappyMob.app": "/home/sumit-kumar/workspace/Happy Mob/MileStone 11/MileStone 1/app",
+    "ResourceManagerPrefKey.ModuleName": "app.HappyMob.app.main",
+    "ResourceManagerPrefKey.ResourceType": "DRAWABLE",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SHOW_ALL_PROCESSES": "false",
+    "android-custom-view/Users/sumitkumar/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.10.0/93873f2a41da69e38213dbe9ed91a0402a903c88/material-1.10.0-sources.jar!/com/google/android/material/tabs/TabLayout.java_SELECTED": "TabLayout",
+    "android-custom-view/Users/sumitkumar/Rest/Workspace Native/IndiaNIC/IndiaNIC/app/src/main/java/com/app/indianic/customview/CustomAutoCompleteTextView.kt_SELECTED": "CustomAutoCompleteTextView",
+    "android-custom-view/Users/sumitkumar/Rest/Workspace Native/IndiaNIC/IndiaNIC/app/src/main/java/com/app/indianic/customview/CustomMaterialEditText.kt_SELECTED": "CustomMaterialEditText",
+    "android-custom-view/Users/sumitkumar/Rest/Workspace Native/MileStone 1_11Jan23/app/src/main/java/com/app/happymob/customview/CustomMaterialEditText.kt_SELECTED": "CustomMaterialEditText",
+    "android-custom-view/home/sumit-kumar/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.6.1/ace9a78b961165396147e8691faa18c1b0e48e20/appcompat-1.6.1-sources.jar!/androidx/appcompat/widget/ActionBarContainer.java_SELECTED": "ActionBarContainer",
+    "android-custom-view/home/sumit-kumar/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.6.1/ace9a78b961165396147e8691faa18c1b0e48e20/appcompat-1.6.1-sources.jar!/androidx/appcompat/widget/AppCompatAutoCompleteTextView.java_SELECTED": "AppCompatAutoCompleteTextView",
+    "android-custom-view/home/sumit-kumar/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.6.1/ace9a78b961165396147e8691faa18c1b0e48e20/appcompat-1.6.1-sources.jar!/androidx/appcompat/widget/AppCompatEditText.java_SELECTED": "AppCompatEditText",
+    "android-custom-view/home/sumit-kumar/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.6.1/ace9a78b961165396147e8691faa18c1b0e48e20/appcompat-1.6.1-sources.jar!/androidx/appcompat/widget/AppCompatImageView.java_SELECTED": "AppCompatImageView",
+    "android-custom-view/home/sumit-kumar/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.6.1/ace9a78b961165396147e8691faa18c1b0e48e20/appcompat-1.6.1-sources.jar!/androidx/appcompat/widget/AppCompatSpinner.java_SELECTED": "AppCompatSpinner",
+    "android-custom-view/home/sumit-kumar/.gradle/caches/modules-2/files-2.1/androidx.core/core/1.12.0/696658fc9147f9bb2e04c64f77fa0c8a603583d/core-1.12.0-sources.jar!/androidx/core/widget/NestedScrollView.java_SELECTED": "NestedScrollView",
+    "android-custom-view/home/sumit-kumar/.gradle/caches/modules-2/files-2.1/androidx.drawerlayout/drawerlayout/1.1.1/d95f7d9cd7d95cc0c038bbcf9c65f521b56fee55/drawerlayout-1.1.1-sources.jar!/androidx/drawerlayout/widget/DrawerLayout.java_SELECTED": "DrawerLayout",
+    "android-custom-view/home/sumit-kumar/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0/f2bdf79e1977939817f54a9d3e2f6bc52b63bdd0/recyclerview-1.1.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_SELECTED": "RecyclerView",
+    "android-custom-view/home/sumit-kumar/.gradle/caches/modules-2/files-2.1/androidx.viewpager2/viewpager2/1.0.0/3c3569044e6969f1ee5c3aa03b08e6717a2d782f/viewpager2-1.0.0-sources.jar!/androidx/viewpager2/widget/ViewPager2.java_SELECTED": "ViewPager2",
+    "android-custom-view/home/sumit-kumar/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.9.0/8ad443d2a33a5bbdf4210e3964cf79cc5021f12a/material-1.9.0-sources.jar!/com/google/android/material/card/MaterialCardView.java_SELECTED": "MaterialCardView",
+    "android-custom-view/home/sumit-kumar/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.9.0/8ad443d2a33a5bbdf4210e3964cf79cc5021f12a/material-1.9.0-sources.jar!/com/google/android/material/navigation/NavigationView.java_SELECTED": "NavigationView",
+    "android-custom-view/home/sumit-kumar/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.9.0/8ad443d2a33a5bbdf4210e3964cf79cc5021f12a/material-1.9.0-sources.jar!/com/google/android/material/slider/BaseSlider.java_SELECTED": "BaseSlider",
+    "android-custom-view/home/sumit-kumar/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.9.0/8ad443d2a33a5bbdf4210e3964cf79cc5021f12a/material-1.9.0-sources.jar!/com/google/android/material/textfield/MaterialAutoCompleteTextView.java_SELECTED": "MaterialAutoCompleteTextView",
+    "android-custom-view/home/sumit-kumar/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.9.0/8ad443d2a33a5bbdf4210e3964cf79cc5021f12a/material-1.9.0-sources.jar!/com/google/android/material/textfield/TextInputEditText.java_SELECTED": "TextInputEditText",
+    "android-custom-view/home/sumit-kumar/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.9.0/8ad443d2a33a5bbdf4210e3964cf79cc5021f12a/material-1.9.0-sources.jar!/com/google/android/material/textfield/TextInputLayout.java_SELECTED": "TextInputLayout",
+    "android-custom-view/home/sumit-kumar/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.9.0/8ad443d2a33a5bbdf4210e3964cf79cc5021f12a/material-1.9.0-sources.jar!/com/google/android/material/textview/MaterialTextView.java_SELECTED": "MaterialTextView",
+    "android-custom-view/home/sumit-kumar/Android/Sdk/sources/android-31/android/view/View.java_SELECTED": "View",
+    "android-custom-view/home/sumit-kumar/Android/Sdk/sources/android-33/android/widget/ScrollView.java_SELECTED": "ScrollView",
+    "android-custom-view/home/sumit-kumar/workspace/Happy Mob/MileStone 1/app/src/main/java/com/app/happymob/customview/CustomAutoCompleteAndScrollbar.kt_SELECTED": "CustomAutoCompleteAndScrollbar",
+    "android-custom-view/home/sumit-kumar/workspace/Happy Mob/MileStone 1/app/src/main/java/com/app/happymob/customview/CustomAutoCompleteAndSrollbar.kt_SELECTED": "CustomAutoCompleteAndScrollbar",
+    "android-custom-view/home/sumit-kumar/workspace/Happy Mob/MileStone 1/app/src/main/java/com/app/happymob/customview/CustomCalendarView.java_SELECTED": "CustomMaterialEditText",
+    "android-custom-view/home/sumit-kumar/workspace/Happy Mob/MileStone 1/app/src/main/java/com/app/happymob/customview/CustomMaterialEditText.kt_SELECTED": "CustomMaterialEditText",
+    "android-custom-view/home/sumit-kumar/workspace/Happy Mob/MileStone 1/app/src/main/java/com/app/happymob/customview/CustomMaterialEditText1.kt_SELECTED": "CustomMaterialEditText",
+    "android-custom-view/home/sumit-kumar/workspace/Happy Mob/MileStone 1/app/src/main/java/com/app/happymob/customview/CustomMaterialEditTextWithCheckbox.kt_SELECTED": "CustomMaterialPasswordEditText",
+    "android-custom-view/home/sumit-kumar/workspace/Happy Mob/MileStone 1/app/src/main/java/com/app/happymob/customview/CustomMaterialMultiLineEditText.kt_SELECTED": "CustomMaterialMultiLineEditText",
+    "android-custom-view/home/sumit-kumar/workspace/Happy Mob/MileStone 1/app/src/main/java/com/app/happymob/customview/CustomMaterialPasswordEditText.kt_SELECTED": "CustomMaterialPasswordEditText",
+    "android-custom-view/home/sumit-kumar/workspace/Happy Mob/MileStone 1/app/src/main/java/com/app/happymob/customview/CustomMaterialView.kt_SELECTED": "CustomMaterialEditText",
+    "android-custom-view/home/sumit-kumar/workspace/Happy Mob/MileStone 1/app/src/main/java/com/app/happymob/customview/CustomMaterialWithCountryCodeEditText.kt_SELECTED": "CustomMaterialWithCountryCodeEditText",
+    "android-custom-view/home/sumit-kumar/workspace/Happy Mob/MileStone 1/app/src/main/java/com/app/happymob/customview/CustomSwitch.kt_SELECTED": "CustomSwitch",
+    "android-custom-view/home/sumit-kumar/workspace/Happy Mob/MileStone 1/app/src/main/java/com/app/happymob/ui/businesssignup/adapter/CustomAutoComplete.kt_SELECTED": "CustomAutoCompleteTextView",
+    "android-custom-view/home/sumit-kumar/workspace/Happy Mob/MileStone 1/app/src/main/java/com/app/happymob/ui/businesssignup/adapter/CustomAutoCompleteTextView.kt_SELECTED": "CustomAutoCompleteTextView",
+    "android-custom-view/home/sumit-kumar/workspace/Happy Mob/MileStone 1/app/src/main/java/com/app/happymob/ui/businesssignup/adapter/CustomPaginationAutoComplete.kt_SELECTED": "CustomAutoComplete",
+    "android-custom-view/home/sumit-kumar/workspace/Happy Mob/MileStone 1/app/src/main/java/com/app/happymob/ui/businesssignup/adapter/CustomPaginationSpinner.kt_SELECTED": "CustomPaginationAutoComplete",
+    "android-custom-view/home/sumit-kumar/workspace/Happy Mob/MileStone 11/MileStone 1/app/src/main/java/com/app/happymob/customview/CustomAutoCompleteAndScrollbar.kt_SELECTED": "CustomAutoCompleteAndScrollbar",
+    "android-custom-view/home/sumit-kumar/workspace/Happy Mob/MileStone 11/MileStone 1/app/src/main/java/com/app/happymob/customview/CustomAutoCompleteTextView.kt_SELECTED": "CustomAutoCompleteTextView",
+    "android-custom-view/home/sumit-kumar/workspace/Happy Mob/MileStone 11/MileStone 1/app/src/main/java/com/app/happymob/customview/CustomMaterialEditText.kt_SELECTED": "CustomMaterialEditText",
+    "android-custom-view/home/sumit-kumar/workspace/Happy Mob/MileStone 11/MileStone 1/app/src/main/java/com/app/happymob/customview/CustomMaterialMultiLineEditText.kt_SELECTED": "CustomMaterialMultiLineEditText",
+    "android-custom-view/home/sumit-kumar/workspace/Happy Mob/MileStone 11/MileStone 1/app/src/main/java/com/app/happymob/customview/CustomMaterialPasswordEditText.kt_SELECTED": "CustomMaterialPasswordEditText",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "/Users/sumitkumar/Rest/Workspace Native/IndiaNIC/IndiaNIC/app/src/main/java/com/app/indianic/ui",
+    "project.structure.last.edited": "Suggestions",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.24111675",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "show.migrate.to.gradle.popup": "false"
+  },
+  "keyToStringList": {
+    "ExportApk.BuildVariants": [
+      "release"
+    ],
+    "android-custom-view/home/sumit-kumar/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.9.0/8ad443d2a33a5bbdf4210e3964cf79cc5021f12a/material-1.9.0-sources.jar!/com/google/android/material/textfield/TextInputLayout.java_TextInputLayout_DIMENSIONS": [
+      "1080",
+      "1920"
+    ],
+    "android-custom-view/home/sumit-kumar/workspace/Happy Mob/MileStone 1/app/src/main/java/com/app/happymob/customview/CustomAutoCompleteAndSrollbar.kt_CustomAutoCompleteAndScrollbar_DIMENSIONS": [
+      "1080",
+      "1920"
+    ],
+    "android-custom-view/home/sumit-kumar/workspace/Happy Mob/MileStone 1/app/src/main/java/com/app/happymob/customview/CustomMaterialEditText.kt_CustomMaterialEditText_DIMENSIONS": [
+      "1080",
+      "1920"
+    ],
+    "android-custom-view/home/sumit-kumar/workspace/Happy Mob/MileStone 1/app/src/main/java/com/app/happymob/customview/CustomSwitch.kt_CustomSwitch_DIMENSIONS": [
+      "1080",
+      "1920"
+    ],
+    "android-custom-view/home/sumit-kumar/workspace/Happy Mob/MileStone 11/MileStone 1/app/src/main/java/com/app/happymob/customview/CustomMaterialEditText.kt_CustomMaterialEditText_DIMENSIONS": [
+      "1080",
+      "1920"
+    ]
+  }
+}]]></component>
+  <component name="PsdUISettings">
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="ReadonlyStatusHandler">
+    <option name="SHOW_DIALOG" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/app/indianic/ui" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/app/happymob/ui/dashboard/activity" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/app/happymob/ui/login/activity" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/app/happymob/ui/search/activity" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/app/indianic/ui" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/app/happymob/ui/common" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/app/happymob/request/common" />
+    </key>
+    <key name="android.template.-1120190593">
+      <recent name="com.app.happymob.ui.signup.activity" />
+      <recent name="com.app.happymob.ui.splash" />
+    </key>
+    <key name="android.template.-1619021088">
+      <recent name="com.app.happymob.customview" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.app.indianic.repo" />
+      <recent name="com.app.indianic.response" />
+      <recent name="com.app.indianic.ui" />
+      <recent name="com.app.indianic.viewmodel" />
+      <recent name="com.app.happymob.repo.usersignup" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.app.indianic.ui" />
+      <recent name="com.app.indianic" />
+      <recent name="com.app" />
+      <recent name="com.app.indianic.response" />
+      <recent name="com.app.happymob.broadcastreceiver" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="IndiaNIC.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MileStone 1:app [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Android App.app" />
+      <item itemvalue="Gradle.MileStone 1:app [signingReport]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.MileStone 1:app [signingReport]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ee6cc88-7874-492a-9fd4-1dfe9a21ab68" name="Changes" comment="" />
+      <created>1695112789718</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695112789718</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Bug Fixing and improvement">
+      <created>1697728102083</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697728102083</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Bug Fixing and improvement">
+      <created>1697789659583</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697789659583</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Bug Fixing and improvement">
+      <created>1698316671579</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698316671579</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Bug Fixing and improvement">
+      <created>1698321953891</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698321953891</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Bug Fixing and improvement">
+      <created>1698393291905</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698393291905</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$USER_HOME$" />
+      <path value="$PROJECT_DIR$/../.." />
+    </ignored-roots>
+    <MESSAGE value="Bug Fixing and improvement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug Fixing and improvement" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/app/indianic/ui/businesssignup/fragment/BottomSheetCategory.kt</url>
+          <line>179</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/app/indianic/ui/signup/activity/UserSignUpActivity.kt</url>
+          <line>460</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/app/indianic/base/BaseFragment.kt</url>
+          <line>37</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/app/indianic/ui/login/activity/LoginActivity.kt</url>
+          <line>241</line>
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/app/indianic/ui/businesssignup/fragment/BusinessInformationFragment.kt</url>
+          <line>401</line>
+          <option name="timeStamp" value="265" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/app/indianic/ui/businesssignup/fragment/BusinessInformationFragment.kt</url>
+          <line>396</line>
+          <option name="timeStamp" value="266" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/app/indianic/ui/businesssignup/fragment/BusinessInformationFragment.kt</url>
+          <line>407</line>
+          <option name="timeStamp" value="267" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/app/indianic/ui/businesssignup/fragment/BusinessInformationFragment.kt</url>
+          <line>409</line>
+          <option name="timeStamp" value="268" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/app/indianic/ui/search/activity/SearchBusinessActivity.kt</url>
+          <line>255</line>
+          <option name="timeStamp" value="314" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/app/indianic/ui/search/activity/SearchBusinessActivity.kt</url>
+          <line>258</line>
+          <option name="timeStamp" value="315" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/app/indianic/ui/search/activity/SearchBusinessActivity.kt</url>
+          <line>265</line>
+          <option name="timeStamp" value="316" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/app/indianic/ui/search/activity/SearchBusinessActivity.kt</url>
+          <line>267</line>
+          <option name="timeStamp" value="317" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/app/indianic/ui/search/activity/SearchBusinessActivity.kt</url>
+          <line>300</line>
+          <option name="timeStamp" value="318" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/app/indianic/ui/search/fragment/BusinessListOnMapFragment.kt</url>
+          <line>102</line>
+          <option name="timeStamp" value="440" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/app/indianic/ui/search/fragment/BusinessListOnMapFragment.kt</url>
+          <line>101</line>
+          <option name="timeStamp" value="441" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/app/indianic/ui/search/fragment/BusinessListOnMapFragment.kt</url>
+          <line>112</line>
+          <option name="timeStamp" value="442" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/app/indianic/ui/search/activity/SearchBusinessActivity.kt</url>
+          <line>90</line>
+          <option name="timeStamp" value="443" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/app/indianic/ui/drawermenu/changepassword/ChangePasswordActivity.kt</url>
+          <line>38</line>
+          <option name="timeStamp" value="453" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/app/indianic/ui/drawermenu/changepassword/ChangePasswordActivity.kt</url>
+          <line>37</line>
+          <option name="timeStamp" value="454" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/app/indianic/ui/businesssignup/fragment/BusinessInformationFragment.kt</url>
+          <line>803</line>
+          <option name="timeStamp" value="477" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/app/indianic/ui/businesssignup/fragment/BusinessInformationFragment.kt</url>
+          <line>802</line>
+          <option name="timeStamp" value="478" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/app/indianic/ui/businesssignup/fragment/BusinessInformationFragment.kt</url>
+          <line>466</line>
+          <option name="timeStamp" value="480" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/app/indianic/widget/NestedPaginationListener.kt</url>
+          <line>48</line>
+          <option name="timeStamp" value="489" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/app/indianic/ui/businesssignup/fragment/BusinessInformationFragment.kt</url>
+          <line>252</line>
+          <option name="timeStamp" value="500" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/app/indianic/ui/businesssignup/fragment/BusinessInformationFragment.kt</url>
+          <line>251</line>
+          <option name="timeStamp" value="501" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

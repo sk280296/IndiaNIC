@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "791748729014",
+    "project_id": "happy-mob",
+    "storage_bucket": "happy-mob.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791748729014:android:59209eceaba8034a42ee17",
+        "android_client_info": {
+          "package_name": "com.app.indianic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791748729014-5t0jlv905beht9da5fd4lmvnv9qr4fe5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.indianic",
+            "certificate_hash": "da9eee893a5aa94347a9d4006036074209204324"
+          }
+        },
+        {
+          "client_id": "791748729014-jkbf32q4rlus4nutvoubm56qs51schr4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaLsQiWWxo5VN47bufgkEXINkvgBZnt78"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791748729014-jkbf32q4rlus4nutvoubm56qs51schr4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "791748729014-0c9oh832q5t3ujjsp88s96vlk4md4i2h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ta.testapps"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

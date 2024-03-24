@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_shape_8"
+        app:boxBackgroundColor="@android:color/transparent"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="@dimen/dp0"
+        app:endIconTint="@color/color_3C3B3E"
+        app:errorIconDrawable="@drawable/ic_error_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:maxLines="1"
+            android:imeOptions="actionNext"
+            android:minHeight="@dimen/dp56" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--<TextView
+        android:id="@+id/tvError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/dp40"
+        android:background="@drawable/bg_shape_error"
+        android:paddingVertical="@dimen/dp5"
+        android:paddingStart="@dimen/dp8"
+        android:paddingEnd="@dimen/dp12"
+        android:textColor="@color/color_E71010"
+        android:visibility="gone" />-->
+
+</RelativeLayout>

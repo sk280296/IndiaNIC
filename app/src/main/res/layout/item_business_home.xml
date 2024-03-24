@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/color_FFFFFF"
+        app:cardCornerRadius="@dimen/dp8"
+        app:cardElevation="@dimen/dp3"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="@dimen/dp10">
+
+            <!--            <com.google.android.material.imageview.ShapeableImageView-->
+            <!--                android:id="@+id/ivImage"-->
+            <!--                android:layout_width="@dimen/dp123"-->
+            <!--                android:layout_height="@dimen/dp123"-->
+            <!--                android:layout_marginVertical="@dimen/dp10"-->
+            <!--                android:layout_marginStart="@dimen/dp10"-->
+            <!--                android:background="@color/color_DFDFDF"-->
+            <!--                android:scaleType="centerCrop"-->
+            <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--                app:layout_constraintStart_toStartOf="parent"-->
+            <!--                app:layout_constraintTop_toTopOf="parent"-->
+            <!--                app:shapeAppearance="@style/Shapeable_Image_View_Corner_Size_6" />-->
+
+            <TextView
+                android:id="@+id/tvWeather"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp16"
+                android:fontFamily="@font/general_sans_medium"
+                android:textColor="@color/color_E94826"
+                android:textSize="@dimen/sp24"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvTemp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp16"
+                android:layout_marginTop="@dimen/dp4"
+                android:fontFamily="@font/general_sans_medium"
+                android:textColor="@color/color_3C3B3E"
+                android:textSize="@dimen/sp16"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvWeather" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvPressure"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp16"
+                android:layout_marginTop="@dimen/dp4"
+                android:fontFamily="@font/general_sans_medium"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:textColor="@color/color_252527"
+                android:textSize="@dimen/sp16"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvTemp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvHumidity"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp16"
+                android:layout_marginTop="@dimen/dp4"
+                android:fontFamily="@font/general_sans_medium"
+                android:maxLines="1"
+                android:textColor="@color/color_5A5A60"
+                android:textSize="@dimen/sp14"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvPressure" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvWindSpeed"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp16"
+                android:layout_marginTop="@dimen/dp4"
+                android:fontFamily="@font/general_sans_medium"
+                android:maxLines="1"
+                android:textColor="@color/color_5A5A60"
+                android:textSize="@dimen/sp14"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvHumidity" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp16"
+                android:layout_marginTop="@dimen/dp4"
+                android:fontFamily="@font/general_sans_regular"
+                android:includeFontPadding="false"
+                android:maxLines="2"
+                android:textColor="@color/color_5A5A60"
+                android:textSize="@dimen/sp14"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvWindSpeed" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
